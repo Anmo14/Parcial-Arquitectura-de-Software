@@ -12,7 +12,6 @@ class Cliente_usuario:
 
 class Cuenta_cliente:
 
-
     def __init__(self, id_cuenta, id_cliente, saldo):
         self.id_cuenta = id_cuenta
         self.id_cliente = id_cliente
@@ -22,6 +21,12 @@ class Cuenta_cliente:
     def agregar_transaccion(self, transaccion):
   
         self.transacciones.append(transaccion)
+
+class Autenticacion:
+
+    def __init__(self, id_cliente, token):
+        self.id_cliente = id_cliente
+        self.token = token
 
 class Transaccion_cliente:
  
@@ -46,14 +51,9 @@ class Beneficio:
         self.descripcion = descripcion
         self.valor = valor
 
-class Autenticacion:
-
-    def __init__(self, id_cliente, token):
-        self.id_cliente = id_cliente
-        self.token = token
-
 class Recomendacion_beneficios:
 
     def __init__(self, id_cliente, beneficios_recomendados):
         self.id_cliente = id_cliente
         self.beneficios_recomendados = beneficios_recomendados
+
