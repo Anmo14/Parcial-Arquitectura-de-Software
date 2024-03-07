@@ -40,9 +40,9 @@ se puede aplicar al diseñar las clases y sus interfaces donde el usuario no acc
 
 ### Principio de Inversión de Dependencia (Dependency Inversion Principle - DIP) Este principio establece dos conceptos fundamentales:
 
-*Los módulos de alto nivel no deben depender de los módulos de bajo nivel. Ambos deben depender de abstracciones.
-*Las abstracciones no deben depender de los detalles. Los detalles deben depender de las abstracciones.
+* Los módulos de alto nivel no deben depender de los módulos de bajo nivel. Ambos deben depender de abstracciones.
+* Las abstracciones no deben depender de los detalles. Los detalles deben depender de las abstracciones.
 
-*En el codigo proporcionado, en lugar de que las clases dependan directamente de implementaciones concretas, dependen de abstracciones. Por ejemplo, la clase Recomendacion_beneficios depende de la lista de beneficios recomendados, que es una abstracción que puede ser proporcionada por diferentes fuentes o generadores de recomendaciones.
+* En el codigo proporcionado, en lugar de que las clases dependan directamente de implementaciones concretas, dependen de abstracciones. Por ejemplo, la clase Recomendacion_beneficios depende de la lista de beneficios recomendados, que es una abstracción que puede ser proporcionada por diferentes fuentes o generadores de recomendaciones.
 
 ![diagrama de clases](https://github.com/Anmo14/Parcial-Arquitectura-de-Software/assets/148002480/5613d52b-27a7-4365-9e99-01a632101ccf)
