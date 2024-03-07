@@ -9,7 +9,7 @@ La presentación clara de los beneficios disponibles, junto con una retroaliment
 
 La implementación del sistema debe seguir los principios SOLID para asegurar un código mantenible y extensible. Cada microservicio debe ser construido con un propósito específico, desde gestionar la autenticación de usuarios hasta procesar complejas recomendaciones de beneficios. La seguridad fue debe estar en cada etapa empleando las mejores prácticas para proteger la información personal y financiera de los usuarios.
 
-###Responsabilidad Única (SRP - Single Responsibility Principle) 
+### Responsabilidad Única (SRP - Single Responsibility Principle) 
 
 Este principio establece que una clase debe tener una única razón para cambiar, es decir, cada clase debe tener una sola responsabilidad dentro del sistema.
 
@@ -38,7 +38,7 @@ Este principio establece que los objetos de un programa deben ser reemplazables 
 se puede aplicar al diseñar las clases y sus interfaces donde el usuario no acceda a metodos innecesarios.
 * Supongamos que tenemos una interfaz ServicioCliente que contiene métodos para administrar clientes, incluyendo la creación, actualización y eliminación de clientes. Si hay una clase que solo necesita la funcionalidad de creación de clientes y no la de actualización o eliminación, sería preferible tener una interfaz separada solo para la creación de clientes.
 
-###Principio de Inversión de Dependencia (Dependency Inversion Principle - DIP) Este principio establece dos conceptos fundamentales:
+### Principio de Inversión de Dependencia (Dependency Inversion Principle - DIP) Este principio establece dos conceptos fundamentales:
 
 *Los módulos de alto nivel no deben depender de los módulos de bajo nivel. Ambos deben depender de abstracciones.
 *Las abstracciones no deben depender de los detalles. Los detalles deben depender de las abstracciones.
